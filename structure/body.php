@@ -154,10 +154,10 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xl-3 col-md-6 col-12"><img src="img\bae11.jpg" alt=""><img src="img\cat8.jpg" alt=""><img src="img\eye3.jpg" alt=""><img src="img\Soo15.jpg" alt=""><img src="img\ul9.jpg" alt=""></div>
-                    <div class="col-xl-3 col-md-6 col-12"><img src="img\gleam8.jpg" alt=""><img src="img\her5.jpg" alt=""><img src="img\hidden1.jpg" alt=""><img src="img\tt9.jpg" alt=""><img src="img\shik12.jpg" alt=""></div>
-                    <div class="col-xl-3 col-md-6 d-sm-none d-md-block"><img src="img\glitch.jpg" alt=""><img src="img\jae9.jpg" alt=""><img src="img\jen5.jpg" alt=""><img src="img\taeil15.jpg" alt=""><img src="img\pearl2.jpg" alt=""></div>
-                    <div class="col-xl-3 col-md-6 d-sm-none d-md-block"><img src="img\jimin14.jpg" alt=""><img src="img\marilyn.jpg" alt=""><img src="img\min10.jpg" alt=""><img src="img\sung11.jpg" alt=""><img src="img\nak9.jpg" alt=""></div>
+                    <div class="col-xl-3 col-md-6 col-12"><img class="zoom" src="img\jimin14.jpg" alt=""><img class="zoom" src="img\glitch.jpg" alt=""><img class="zoom" src="img\eye3.jpg" alt=""><img class="zoom" src="img\marilyn.jpg" alt=""><img class="zoom" src="img\min10.jpg" alt=""></div>
+                    <div class="col-xl-3 col-md-6 col-12"><img class="zoom" src="img\gleam8.jpg" alt=""><img class="zoom" src="img\her5.jpg" alt=""><img class="zoom" src="img\hidden1.jpg" alt=""><img class="zoom" src="img\tt9.jpg" alt=""><img class="zoom" src="img\shik12.jpg" alt=""></div>
+                    <div class="col-xl-3 col-md-6 d-sm-none d-md-block"><img class="zoom gif" src="img\Untitled_Artwork(2).gif" alt=""><img class="zoom" src="img\jae9.jpg" alt=""><img class="zoom" src="img\jen5.jpg" alt=""><img class="zoom" src="img\taeil15.jpg" alt=""><img class="zoom" src="img\pearl2.jpg" alt=""></div>
+                    <div class="col-xl-3 col-md-6 d-sm-none d-md-block"><img class="zoom gif" src="img\Untitled_Artwork(1).gif" alt=""><img class="zoom gif" src="img\Untitled_Artwork.gif" alt=""><img class="zoom" src="img\pos.gif" alt=""><img class="zoom" src="img\sung11.jpg" alt=""><img class="zoom" src="img\nak9.jpg" alt=""></div>
                 </div>
             </div>
 
@@ -173,6 +173,8 @@
                 </div>
                 <div class="col-7 mt-2">
                     <h1 class="mainfont big">Contact</h1>
+                    <button >venla.p123@gmail.com</button>
+                    <button></button>
 
                 </div>
             </div>

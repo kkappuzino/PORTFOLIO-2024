@@ -1,5 +1,25 @@
 @media (min-width: 992px) {
 
+    .zoom{
+        transition: transform .2s;
+        filter: saturate(5%);
+        display: block;
+        position: relative;
+        
+        &:hover {
+            z-index: 1;
+            filter: saturate(100%);
+            transform: scale(1.5); 
+        }
+        &::after{
+            transform: 0s;
+        }
+        &::before{
+            transform: 0s;
+        }
+    }
+
+
 
     .dark{
         background-color: $main-color;
@@ -174,7 +194,7 @@
         }
     }
     #Con{
-        background-image: url('img/Layer 9.png');
+        background-image: url('');
         background-position: top right;
         background-repeat: no-repeat;
         background-size: 50vh;

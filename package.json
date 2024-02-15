@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "animejs": "^3.2.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}

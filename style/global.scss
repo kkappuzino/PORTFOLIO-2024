@@ -1,0 +1,189 @@
+@media (min-width: 992px) {
+
+
+    .dark{
+        background-color: $main-color;
+        transition: 0.3s ease-out;
+        overflow-x: hidden;
+        max-width: 100%;
+        width: 100%;
+        overscroll-behavior: none;
+        .layer-0{
+            background-image: url("img/Layer-0.png");
+            background-size: 70vh;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .mainfont.big {
+            font-size: 10vh;
+            font-family: $Main-font;
+            color: #fff;
+            width: 80vw;
+            margin: 4vh auto;
+        }
+        .secfont.big2 {
+            font-size: 3vh;
+            font-family: $Sec-font;
+            color: white;
+            margin: 2vh auto;
+        }
+        .para{
+            font-size: 17px;
+            font-family: $thin-font;
+            color: #fff;
+            font-weight: 400;
+        }
+        .vh-80{
+            height: 75vh;
+            padding: 30vh 0;
+
+        }
+        .logo {
+            margin: auto;
+            color:#fff;
+            font-size:4vh;
+            font-family: $thin-font;
+            letter-spacing: 5px;
+            font-weight: 200;
+            img{
+                height: 35px;
+            }
+            :hover{
+                filter: brightness(200%);
+            }
+            
+        }
+        .switches{
+            color: $font-color;
+            right:0;
+            align-items: end;
+            button{
+                display: inline-block;
+            }
+        
+        }
+        .line {
+            font-size:2.5vh;
+            margin: auto;
+            color:#fff;
+            span{
+                width: 20vw;
+                height: 1px;
+                display: block;
+            }
+        }
+        .me-bordered{
+            background-image: url("img/Layer-3.png");
+            background-size: 90%;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 70%;
+            height: 60vh;
+            img{
+                height: auto;
+                width: 350px;
+                position: absolute;
+                bottom: 100;
+                
+
+            }
+        }
+
+        * { 
+            box-sizing: border-box;
+        }
+
+        section:not(#sectionPin) {
+            min-height: 100vh;
+            width: 100vw;
+            display: inline-block;
+
+        }
+        #sectionPin {
+            overflow: hidden;
+            display: flex;
+            left: 0;
+            z-index: -3;
+            color: var(--bg-color);
+        }
+        .pin-wrap {
+            display: flex;
+            justify-content: flex-start;
+            padding: 50px 10vw;
+
+            & > * {
+                min-width: 60vw;
+                padding: 0 5vw;
+            }
+            img{
+                max-height: 100vh;
+            }
+        }
+
+    }
+
+    #Pro{
+        .menu-hover-image {
+            position: relative;
+            list-style-type: none;
+            font-family: $thin-font;
+            font-size: 20px;
+            padding: 10px 10px;
+            margin: auto;
+            .cursor {
+            position: absolute;
+            bottom: 55%;
+            right: 50%;
+            z-index: -1;
+            height: 80vh;
+            width: 40vw;
+            background-image: linear-gradient(120deg, #e08073 0%, #3b71b8 100%);
+            background-size: cover;
+            opacity: 0;
+            }
+        
+            .menu-item {
+                padding: 10px 10px;
+                $menu-image-urls: url('img/portfolio2024pre.png'),
+                    url('img/posfin - Copy.png'),
+                    url('img/ig6.png'),
+                    url('img/PROMO1.png'),
+                    url('img/portfolio2020.png'),
+                    url('img/GF&BF.png'),
+                    url('img/magazine.png'),
+                    url('img/portfolio18.png');
+            
+                @for $i from 1 through 8 {
+                    &:nth-child(#{$i}):hover~.cursor {
+                    background-image: nth($menu-image-urls, $i);
+                    }
+                }
+            
+                a {
+                    display: inline-flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 100%;
+                    text-decoration: none;
+                    color: white;
+                    border-bottom: 2px solid rgba(255, 252, 252, 0.699);
+                    mix-blend-mode: difference;
+                    transform: translate3d(0, 0, 0);  // just make "mix-blend-mode" work properly.
+                }
+            }
+        }
+    }
+    #Con{
+        background-image: url('img/Layer 9.png');
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-size: 50vh;
+        .conpic{
+            display: block;
+            width: 100%;
+        }
+    }
+}
+////////////////////////////////////////////////////////////////
+///
+

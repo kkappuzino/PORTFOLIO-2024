@@ -58,7 +58,7 @@
             <div id="Grap" class="container">
                 <div class="row">
                     <div class="col-4">
-                        <h1 class="mainfont big">graphic design</h1>
+                        <h1 class="mainfont big text-uppercase">graphic design</h1>
                     </div>
                     <div class="col-8">
                         <img src="img\lOSTtrans.png" alt="">
@@ -71,7 +71,7 @@
             <div id="Pro" class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h1 class="mainfont big">Projects</h1>
+                        <h1 class="mainfont big text-uppercase">Projects</h1>
                     </div>
                 </div>
                 <div class="row">
@@ -83,7 +83,7 @@
                         <ul class="menu-hover-image">
 
                             <li class="menu-item">
-                                <a href="#">
+                                <a href="portfolio-2024">
                                     <h1>PORTFOLIO 2024</h1>
                                     <span>2024</span>
                                 </a>
@@ -138,6 +138,7 @@
                     <div class="col-xl-3 col-md-2 col-md-1 d-none d-xl-block">
                     </div>
                 </div>
+
                 <div class="row  my-4 py-2">
                     <div class="col-1 d-none d-xl-inline-block line"><i class="bi bi-hexagon-fill"></i> <i class="bi bi-hexagon-fill"></i> <i class="bi bi-hexagon-fill"> </i></div>
                     <div class="col-8 d-none d-xl-inline-block line text-center"></div>
@@ -150,7 +151,7 @@
             <div id="Art" class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h1 class="mainfont big">Art</h1>
+                        <h1 class="mainfont big text-uppercase">Art</h1>
                     </div>
                 </div>
                 <div class="row">
@@ -172,7 +173,7 @@
                     <img class="conpic" src="img\conpic.png" alt="">
                 </div>
                 <div class="col-7 mt-2">
-                    <h1 class="mainfont big">Contact</h1>
+                    <h1 class="mainfont big text-uppercase">Contact</h1>
                     <button >venla.p123@gmail.com</button>
                     <button></button>
 
